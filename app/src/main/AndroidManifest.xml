@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PMDM_EjercicioClase_BBDD_Spinners">
         <activity
+            android:name=".AssignmentActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
