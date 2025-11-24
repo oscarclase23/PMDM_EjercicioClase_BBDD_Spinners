@@ -9,6 +9,10 @@ android {
         version = release(36)
     }
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.example.pmdm_ejercicioclase_bbdd_spinners"
         minSdk = 24
